@@ -3,14 +3,30 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { YourDataComponent } from './your-data/your-data.component';
+import { ApprovalsComponent } from './approvals/approvals.component';
+import { AppealsComponent } from './appeals/appeals.component';
+import { InformationComponent } from './information/information.component';
+import { MainComponent } from './main/main.component';
+import { CompanyComponent } from './company/company.component';
+import { DataServerComponent } from './data-server/data-server.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    YourDataComponent,
+    ApprovalsComponent,
+    AppealsComponent,
+    InformationComponent,
+    MainComponent,
+    CompanyComponent,
+    DataServerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
